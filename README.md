@@ -19,7 +19,7 @@ CMS.registerWidget('geojson', GeoControl, GeoPreview)
 Via `script` tag:
 
 ```html
-<script src="https://unpkg.com/netlify-cms-widget-geojson@^0.0.1"></script>
+<script src="https://unpkg.com/netlify-cms-widget-geojson@^0.0.3"></script>
 
 <script>
   CMS.registerWidget('geojson', GeoControl, GeoPreview)
