@@ -78,6 +78,9 @@ export default class GeoControl extends React.Component {
         this.state.editableLayers.addLayer(layer);
       }
     });
+    if (typeof this.props.value !== 'undefined') {
+      this.state.map.fitBounds(this.state.editableLayers.getBounds(), { maxZoom: 16});
+    }
   }
 
   getDrawSettings () {
